@@ -18,6 +18,7 @@ nav a:hover {
 }
 h1 {
     color:hotpink;
+    font-family: 'cursive';
 }
 ul{
     list-style-type: square;
@@ -25,6 +26,7 @@ ul{
 }
 li{
     color:rgb(219, 190, 219);
+    font-family: 'fantasy';
 }
 a{
     color:cadetblue;
