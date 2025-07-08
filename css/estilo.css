@@ -40,12 +40,11 @@ a{
 }
 
 .img:houver {
-    transform: scale(1.1) rotate(2deg);
     animation: flutuar 1.2s infinite alternate ease-in-out;
 }
 
-flutuar {
-  0% {
+@keyframes flutuar {
+   0% {
     tranform: translateY(0) scale(1.05) rotate(0deg);
   }
   50% {
