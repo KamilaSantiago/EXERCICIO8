@@ -24,15 +24,15 @@ ul{
     padding-left: 0;
 }
 li{
-    color:fuchsia;
+    color:rgb(219, 190, 219);
 }
 a{
     color:cadetblue;
 }
 
 .img {
-    max-width: 200px;
-    height: auto;
+    max-width: 500px;
+    height: 370px;
     margin: 15px;
     border-radius: 10px;
     transition: transform 0.5s;
@@ -40,6 +40,19 @@ a{
 
 .img:houver {
     transform: scale(1.1) rotate(2deg);
+    animation: flutuar 1.2s infinite alternate ease-in-out;
+}
+
+flutuar {
+  0% {
+    tranform: translateY(0) scale(1.05) rotate(0deg);
+  }
+  50% {
+    trasnform: translateY(-10px) scale(1.1) rotate(2deg);
+  }
+  100% {
+    transform: translateY(0) scale(1.05) rotate(-2deg);
+  }
 }
 
 img {
